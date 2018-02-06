@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuspendDataBindingExample", "SuspendDataBindingExample\SuspendDataBindingExample.csproj", "{836F8105-22BD-482A-9B4D-CA053B1FC58F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{836F8105-22BD-482A-9B4D-CA053B1FC58F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836F8105-22BD-482A-9B4D-CA053B1FC58F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836F8105-22BD-482A-9B4D-CA053B1FC58F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836F8105-22BD-482A-9B4D-CA053B1FC58F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94D7577E-B426-4F67-8019-A32D2D731A78}
+	EndGlobalSection
+EndGlobal
