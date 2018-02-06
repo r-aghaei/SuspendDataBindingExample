@@ -45,14 +45,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="ProductEditForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ProductEditForm.Designer.cs">
+      <DependentUpon>ProductEditForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProductListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductListForm.Designer.cs">
+      <DependentUpon>ProductListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ProductEditForm.resx">
+      <DependentUpon>ProductEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductListForm.resx">
+      <DependentUpon>ProductListForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +75,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\Product.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
